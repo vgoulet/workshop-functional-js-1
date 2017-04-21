@@ -7,6 +7,7 @@ describe('GIVEN function zip', function() {
     expect(zip([])).to.eql([]);
   });
 
+
   it('WHEN 1 sub array with 2 items THEN should return 2 sub arrays with 1 item', function() {
     expect(zip([['a', 'b']])).to.eql([['a'], ['b']]);
   });
