@@ -5,6 +5,7 @@ describe('GIVEN function reverseString', function() {
 
   const oldSchoolWay = (input) => input.split('').reverse().join('');
 
+
   it('WHEN string is empty THEN should return the same thing than the old school way', function() {
     let emptyString = '';
     expect(reverseString(emptyString)).to.eql(oldSchoolWay(emptyString));
